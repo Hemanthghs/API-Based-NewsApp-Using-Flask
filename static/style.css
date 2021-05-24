@@ -1,0 +1,38 @@
+body{
+    
+}
+.custom-card{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.read-more{
+
+}
+.home-btn{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding:4px;
+    margin-bottom: 5px;
+}
+.search-bar{
+    margin-right: 5px;
+}
+.custom-footer{
+    color:white;
+    text-align: center;
+    padding:5px;
+}
+.heading{
+    margin-bottom: 5px;
+}
+.home-btn:hover{
+    background-color: rgb(196, 196, 196);
+    cursor: pointer;
+    color:white;
+}
+a{
+    text-decoration:none !important;
+  }
+

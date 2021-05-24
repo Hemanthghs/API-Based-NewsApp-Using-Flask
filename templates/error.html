@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>To News | Error</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="shortcut icon" href="../static/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="home-btn" href="https://tonews.herokuapp.com">Trending Headlines</a>
+
+            <form action="/search-results" class="d-flex" method="POST">
+                <input class="search-bar form-control me-2 " type="search" placeholder="Search for a topic"
+                    aria-label="Search" name="key">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+  
+    <div class="jumbotron text-center">
+        <h1>To News</h1>
+        <p>One place for all kinds of news</p>
+    </div>
+
+    <div class="container">
+        <h1>Error Occurred! Try again..</h1>
+        <a  href="https://tonews.herokuapp.com" style="margin-bottom:10px;">Click here to return to Home</a>
+    </div>
+    <div class="container-fluid bg-dark custom-footer">&copy; 2021 - <a href="https://tonews.herokuapp.com" style="color:white">To News</a></div>
+
+</body>
+
+</html>
