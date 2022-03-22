@@ -1,9 +1,9 @@
 # API-Based-NewsApp-Using-Flask
 
-Web App Link:
 
-http://tonews.herokuapp.com/
+<h2>Live Deployment Link: http://tonews.herokuapp.com/</h2>
 
-API Used:
+API Used - 
+News API - https://newsapi.org/
 
-News API https://newsapi.org/
+
